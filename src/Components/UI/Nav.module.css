@@ -1,0 +1,28 @@
+
+nav{
+    background-color:transparent;
+    width: 100vw;
+    height:10%;
+    background-color:#00194c;
+    color:aliceblue;
+    display: flex;
+    
+}
+li{
+    display: flex;
+    flex:0.2;
+    height: 80%;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navItems{
+    justify-content: space-around;
+}
+.navItems a:not(:first-child){
+    padding-left:3px;
+    border-left: 2px solid gray;
+}
